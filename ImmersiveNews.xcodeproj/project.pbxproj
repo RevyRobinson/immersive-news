@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D1553931E0AD8AF0076E6E0 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1553921E0AD8AF0076E6E0 /* PlayViewController.swift */; };
+		1D1553961E0AE5DB0076E6E0 /* ImageFromURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1553951E0AE5DB0076E6E0 /* ImageFromURL.swift */; };
+		1D27E4641E0AB357001FF599 /* Header.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D27E4631E0AB357001FF599 /* Header.xib */; };
+		1D27E4661E0AB563001FF599 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D27E4651E0AB563001FF599 /* Header.swift */; };
+		1DA2178F1E098C2800D5035C /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2178E1E098C2800D5035C /* NewsDetailViewController.swift */; };
 		1DFC1CCB1E081C7A00CDE095 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFC1CCA1E081C7A00CDE095 /* AppDelegate.swift */; };
-		1DFC1CCD1E081C7A00CDE095 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFC1CCC1E081C7A00CDE095 /* ViewController.swift */; };
+		1DFC1CCD1E081C7A00CDE095 /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFC1CCC1E081C7A00CDE095 /* NewsListViewController.swift */; };
 		1DFC1CD01E081C7A00CDE095 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DFC1CCE1E081C7A00CDE095 /* Main.storyboard */; };
 		1DFC1CD21E081C7A00CDE095 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DFC1CD11E081C7A00CDE095 /* Images.xcassets */; };
 		1DFC1CD51E081C7A00CDE095 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DFC1CD31E081C7A00CDE095 /* LaunchScreen.xib */; };
 		1DFC1CE11E081C7A00CDE095 /* ImmersiveNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFC1CE01E081C7A00CDE095 /* ImmersiveNewsTests.swift */; };
+		1DFC1CEE1E0828E100CDE095 /* NewsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DFC1CED1E0828E100CDE095 /* NewsCollectionViewCell.xib */; };
+		1DFC1CF01E082C2B00CDE095 /* NewsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFC1CEF1E082C2B00CDE095 /* NewsCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +33,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D1553921E0AD8AF0076E6E0 /* PlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		1D1553951E0AE5DB0076E6E0 /* ImageFromURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFromURL.swift; sourceTree = "<group>"; };
+		1D27E4631E0AB357001FF599 /* Header.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Header.xib; sourceTree = "<group>"; };
+		1D27E4651E0AB563001FF599 /* Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		1DA2178E1E098C2800D5035C /* NewsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
 		1DFC1CC51E081C7A00CDE095 /* ImmersiveNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImmersiveNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DFC1CC91E081C7A00CDE095 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DFC1CCA1E081C7A00CDE095 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1DFC1CCC1E081C7A00CDE095 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1DFC1CCC1E081C7A00CDE095 /* NewsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
 		1DFC1CCF1E081C7A00CDE095 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1DFC1CD11E081C7A00CDE095 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1DFC1CD41E081C7A00CDE095 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1DFC1CDA1E081C7A00CDE095 /* ImmersiveNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImmersiveNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DFC1CDF1E081C7A00CDE095 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DFC1CE01E081C7A00CDE095 /* ImmersiveNewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveNewsTests.swift; sourceTree = "<group>"; };
+		1DFC1CED1E0828E100CDE095 /* NewsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsCollectionViewCell.xib; sourceTree = "<group>"; };
+		1DFC1CEF1E082C2B00CDE095 /* NewsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D1553941E0AE5C90076E6E0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1D1553951E0AE5DB0076E6E0 /* ImageFromURL.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		1DFC1CBC1E081C7A00CDE095 = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +99,12 @@
 		1DFC1CC71E081C7A00CDE095 /* ImmersiveNews */ = {
 			isa = PBXGroup;
 			children = (
+				1D1553941E0AE5C90076E6E0 /* Extensions */,
+				1DFC1CEA1E08243600CDE095 /* Views */,
 				1DFC1CCA1E081C7A00CDE095 /* AppDelegate.swift */,
-				1DFC1CCC1E081C7A00CDE095 /* ViewController.swift */,
+				1DFC1CCC1E081C7A00CDE095 /* NewsListViewController.swift */,
+				1DA2178E1E098C2800D5035C /* NewsDetailViewController.swift */,
+				1D1553921E0AD8AF0076E6E0 /* PlayViewController.swift */,
 				1DFC1CCE1E081C7A00CDE095 /* Main.storyboard */,
 				1DFC1CD11E081C7A00CDE095 /* Images.xcassets */,
 				1DFC1CD31E081C7A00CDE095 /* LaunchScreen.xib */,
@@ -110,6 +136,17 @@
 				1DFC1CDF1E081C7A00CDE095 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DFC1CEA1E08243600CDE095 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1DFC1CED1E0828E100CDE095 /* NewsCollectionViewCell.xib */,
+				1DFC1CEF1E082C2B00CDE095 /* NewsCollectionViewCell.swift */,
+				1D27E4631E0AB357001FF599 /* Header.xib */,
+				1D27E4651E0AB563001FF599 /* Header.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,9 +198,11 @@
 				TargetAttributes = {
 					1DFC1CC41E081C7A00CDE095 = {
 						CreatedOnToolsVersion = 6.2;
+						LastSwiftMigration = 0820;
 					};
 					1DFC1CD91E081C7A00CDE095 = {
 						CreatedOnToolsVersion = 6.2;
+						LastSwiftMigration = 0820;
 						TestTargetID = 1DFC1CC41E081C7A00CDE095;
 					};
 				};
@@ -193,8 +232,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DFC1CD01E081C7A00CDE095 /* Main.storyboard in Resources */,
+				1D27E4641E0AB357001FF599 /* Header.xib in Resources */,
 				1DFC1CD51E081C7A00CDE095 /* LaunchScreen.xib in Resources */,
 				1DFC1CD21E081C7A00CDE095 /* Images.xcassets in Resources */,
+				1DFC1CEE1E0828E100CDE095 /* NewsCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +253,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DFC1CCD1E081C7A00CDE095 /* ViewController.swift in Sources */,
+				1D1553961E0AE5DB0076E6E0 /* ImageFromURL.swift in Sources */,
+				1D27E4661E0AB563001FF599 /* Header.swift in Sources */,
+				1DA2178F1E098C2800D5035C /* NewsDetailViewController.swift in Sources */,
+				1DFC1CCD1E081C7A00CDE095 /* NewsListViewController.swift in Sources */,
+				1DFC1CF01E082C2B00CDE095 /* NewsCollectionViewCell.swift in Sources */,
+				1D1553931E0AD8AF0076E6E0 /* PlayViewController.swift in Sources */,
 				1DFC1CCB1E081C7A00CDE095 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +387,7 @@
 				INFOPLIST_FILE = ImmersiveNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -351,6 +398,7 @@
 				INFOPLIST_FILE = ImmersiveNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -369,6 +417,7 @@
 				INFOPLIST_FILE = ImmersiveNewsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImmersiveNews.app/ImmersiveNews";
 			};
 			name = Debug;
@@ -384,6 +433,7 @@
 				INFOPLIST_FILE = ImmersiveNewsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImmersiveNews.app/ImmersiveNews";
 			};
 			name = Release;
@@ -407,6 +457,7 @@
 				1DFC1CE61E081C7A00CDE095 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DFC1CE71E081C7A00CDE095 /* Build configuration list for PBXNativeTarget "ImmersiveNewsTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +466,7 @@
 				1DFC1CE91E081C7A00CDE095 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
