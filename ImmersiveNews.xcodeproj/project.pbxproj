@@ -11,6 +11,8 @@
 		1D1553961E0AE5DB0076E6E0 /* ImageFromURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1553951E0AE5DB0076E6E0 /* ImageFromURL.swift */; };
 		1D27E4641E0AB357001FF599 /* Header.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D27E4631E0AB357001FF599 /* Header.xib */; };
 		1D27E4661E0AB563001FF599 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D27E4651E0AB563001FF599 /* Header.swift */; };
+		1D450E521E0C208B006FFF3E /* UTNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D450E511E0C208B006FFF3E /* UTNavigationController.swift */; };
+		1D450E541E0C224A006FFF3E /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D450E531E0C224A006FFF3E /* VideoPlayerViewController.swift */; };
 		1DA2178F1E098C2800D5035C /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2178E1E098C2800D5035C /* NewsDetailViewController.swift */; };
 		1DFC1CCB1E081C7A00CDE095 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFC1CCA1E081C7A00CDE095 /* AppDelegate.swift */; };
 		1DFC1CCD1E081C7A00CDE095 /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFC1CCC1E081C7A00CDE095 /* NewsListViewController.swift */; };
@@ -20,6 +22,8 @@
 		1DFC1CE11E081C7A00CDE095 /* ImmersiveNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFC1CE01E081C7A00CDE095 /* ImmersiveNewsTests.swift */; };
 		1DFC1CEE1E0828E100CDE095 /* NewsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DFC1CED1E0828E100CDE095 /* NewsCollectionViewCell.xib */; };
 		1DFC1CF01E082C2B00CDE095 /* NewsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFC1CEF1E082C2B00CDE095 /* NewsCollectionViewCell.swift */; };
+		322E0427566CB0BB2522C692 /* Pods_ImmersiveNewsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83581C5E36632B4C0F456DBB /* Pods_ImmersiveNewsTests.framework */; };
+		C7ACF2D23DA9D8895E961D26 /* Pods_ImmersiveNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 866EFA2B15481DA252974382 /* Pods_ImmersiveNews.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,9 @@
 		1D1553951E0AE5DB0076E6E0 /* ImageFromURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFromURL.swift; sourceTree = "<group>"; };
 		1D27E4631E0AB357001FF599 /* Header.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Header.xib; sourceTree = "<group>"; };
 		1D27E4651E0AB563001FF599 /* Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		1D450E511E0C208B006FFF3E /* UTNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UTNavigationController.swift; sourceTree = "<group>"; };
+		1D450E531E0C224A006FFF3E /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		1D6C51D71E0C2E5A00EEAE1F /* GVRSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVRSDK.h; sourceTree = "<group>"; };
 		1DA2178E1E098C2800D5035C /* NewsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
 		1DFC1CC51E081C7A00CDE095 /* ImmersiveNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImmersiveNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DFC1CC91E081C7A00CDE095 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +57,12 @@
 		1DFC1CE01E081C7A00CDE095 /* ImmersiveNewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveNewsTests.swift; sourceTree = "<group>"; };
 		1DFC1CED1E0828E100CDE095 /* NewsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsCollectionViewCell.xib; sourceTree = "<group>"; };
 		1DFC1CEF1E082C2B00CDE095 /* NewsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCollectionViewCell.swift; sourceTree = "<group>"; };
+		542ED25162DE00D78113B614 /* Pods-ImmersiveNewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImmersiveNewsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImmersiveNewsTests/Pods-ImmersiveNewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5FCC0640AA87249761255DAB /* Pods-ImmersiveNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImmersiveNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImmersiveNews/Pods-ImmersiveNews.debug.xcconfig"; sourceTree = "<group>"; };
+		83581C5E36632B4C0F456DBB /* Pods_ImmersiveNewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImmersiveNewsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		866EFA2B15481DA252974382 /* Pods_ImmersiveNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImmersiveNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9774D16FA5556D2E3B727739 /* Pods-ImmersiveNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImmersiveNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImmersiveNews/Pods-ImmersiveNews.release.xcconfig"; sourceTree = "<group>"; };
+		BC691B54661297193FBAFAA3 /* Pods-ImmersiveNewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImmersiveNewsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImmersiveNewsTests/Pods-ImmersiveNewsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7ACF2D23DA9D8895E961D26 /* Pods_ImmersiveNews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				322E0427566CB0BB2522C692 /* Pods_ImmersiveNewsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +99,8 @@
 				1DFC1CC71E081C7A00CDE095 /* ImmersiveNews */,
 				1DFC1CDD1E081C7A00CDE095 /* ImmersiveNewsTests */,
 				1DFC1CC61E081C7A00CDE095 /* Products */,
+				53613A8DEAC488B54BF3CE5A /* Pods */,
+				AEFFD546994A489C0AFBAC9A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,13 +119,16 @@
 				1D1553941E0AE5C90076E6E0 /* Extensions */,
 				1DFC1CEA1E08243600CDE095 /* Views */,
 				1DFC1CCA1E081C7A00CDE095 /* AppDelegate.swift */,
+				1D450E511E0C208B006FFF3E /* UTNavigationController.swift */,
 				1DFC1CCC1E081C7A00CDE095 /* NewsListViewController.swift */,
 				1DA2178E1E098C2800D5035C /* NewsDetailViewController.swift */,
 				1D1553921E0AD8AF0076E6E0 /* PlayViewController.swift */,
+				1D450E531E0C224A006FFF3E /* VideoPlayerViewController.swift */,
 				1DFC1CCE1E081C7A00CDE095 /* Main.storyboard */,
 				1DFC1CD11E081C7A00CDE095 /* Images.xcassets */,
 				1DFC1CD31E081C7A00CDE095 /* LaunchScreen.xib */,
 				1DFC1CC81E081C7A00CDE095 /* Supporting Files */,
+				1D6C51D71E0C2E5A00EEAE1F /* GVRSDK.h */,
 			);
 			path = ImmersiveNews;
 			sourceTree = "<group>";
@@ -149,6 +169,26 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
+		53613A8DEAC488B54BF3CE5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FCC0640AA87249761255DAB /* Pods-ImmersiveNews.debug.xcconfig */,
+				9774D16FA5556D2E3B727739 /* Pods-ImmersiveNews.release.xcconfig */,
+				542ED25162DE00D78113B614 /* Pods-ImmersiveNewsTests.debug.xcconfig */,
+				BC691B54661297193FBAFAA3 /* Pods-ImmersiveNewsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AEFFD546994A489C0AFBAC9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				866EFA2B15481DA252974382 /* Pods_ImmersiveNews.framework */,
+				83581C5E36632B4C0F456DBB /* Pods_ImmersiveNewsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DFC1CE41E081C7A00CDE095 /* Build configuration list for PBXNativeTarget "ImmersiveNews" */;
 			buildPhases = (
+				A50AA08DD66C7104C8479757 /* [CP] Check Pods Manifest.lock */,
 				1DFC1CC11E081C7A00CDE095 /* Sources */,
 				1DFC1CC21E081C7A00CDE095 /* Frameworks */,
 				1DFC1CC31E081C7A00CDE095 /* Resources */,
+				D026D102BCF4D4D9A3B5A942 /* [CP] Embed Pods Frameworks */,
+				776F45A774C30D6D8790A127 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DFC1CE71E081C7A00CDE095 /* Build configuration list for PBXNativeTarget "ImmersiveNewsTests" */;
 			buildPhases = (
+				83665062CD5B5CECEF40E8C8 /* [CP] Check Pods Manifest.lock */,
 				1DFC1CD61E081C7A00CDE095 /* Sources */,
 				1DFC1CD71E081C7A00CDE095 /* Frameworks */,
 				1DFC1CD81E081C7A00CDE095 /* Resources */,
+				7D8BBB6598D6D77015ED7713 /* [CP] Embed Pods Frameworks */,
+				18AB34B735ADDAE8C7B01874 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +294,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18AB34B735ADDAE8C7B01874 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImmersiveNewsTests/Pods-ImmersiveNewsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		776F45A774C30D6D8790A127 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImmersiveNews/Pods-ImmersiveNews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D8BBB6598D6D77015ED7713 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImmersiveNewsTests/Pods-ImmersiveNewsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83665062CD5B5CECEF40E8C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A50AA08DD66C7104C8479757 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D026D102BCF4D4D9A3B5A942 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImmersiveNews/Pods-ImmersiveNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1DFC1CC11E081C7A00CDE095 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -256,7 +395,9 @@
 				1D1553961E0AE5DB0076E6E0 /* ImageFromURL.swift in Sources */,
 				1D27E4661E0AB563001FF599 /* Header.swift in Sources */,
 				1DA2178F1E098C2800D5035C /* NewsDetailViewController.swift in Sources */,
+				1D450E541E0C224A006FFF3E /* VideoPlayerViewController.swift in Sources */,
 				1DFC1CCD1E081C7A00CDE095 /* NewsListViewController.swift in Sources */,
+				1D450E521E0C208B006FFF3E /* UTNavigationController.swift in Sources */,
 				1DFC1CF01E082C2B00CDE095 /* NewsCollectionViewCell.swift in Sources */,
 				1D1553931E0AD8AF0076E6E0 /* PlayViewController.swift in Sources */,
 				1DFC1CCB1E081C7A00CDE095 /* AppDelegate.swift in Sources */,
@@ -382,28 +523,33 @@
 		};
 		1DFC1CE51E081C7A00CDE095 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FCC0640AA87249761255DAB /* Pods-ImmersiveNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImmersiveNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ImmersiveNews/GVRSDK.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		1DFC1CE61E081C7A00CDE095 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9774D16FA5556D2E3B727739 /* Pods-ImmersiveNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ImmersiveNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ImmersiveNews/GVRSDK.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		1DFC1CE81E081C7A00CDE095 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 542ED25162DE00D78113B614 /* Pods-ImmersiveNewsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -424,6 +570,7 @@
 		};
 		1DFC1CE91E081C7A00CDE095 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC691B54661297193FBAFAA3 /* Pods-ImmersiveNewsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
